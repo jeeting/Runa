@@ -1,0 +1,6 @@
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+log = "0.4"
+fern = "0.6"
+directories = "5.0"
+tauri = { version = "1", features = ["window-startup", "fs-all"] }
